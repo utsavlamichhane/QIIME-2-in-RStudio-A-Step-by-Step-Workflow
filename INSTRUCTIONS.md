@@ -26,7 +26,6 @@ conda activate qiime2-amplicon-2024.10
 Lets verify, you have qiime2 in your machine.
 
 ```{bash}
-
 which qiime
 ```
 
@@ -61,7 +60,6 @@ Run the following command in R console.
 
 ```
 qiime_bin <- "/Users/ugalab4/anaconda3/envs/qiime2-amplicon-2024.10/bin"
-
 ```
 The path should be the one you get when you executed the "which qiime" command in your terminal in **Step 2**. 
 
@@ -102,7 +100,6 @@ Use the google drive link to download the file.
 
 ```
 https://drive.google.com/file/d/1R20wyjx0Dd2tcWmL_jK-ePqcouu36sqM/view?usp=sharing
-
 ```
 
 **Step 6: Change the working dir**
