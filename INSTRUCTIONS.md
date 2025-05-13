@@ -19,7 +19,6 @@ This guide will walk you through installing the necessary packages, configuring 
 I assume you have qiime2-amplicon-2024.10 installed in your system.
 
 '''
-{bash}
 conda activate qiime2-amplicon-2024.10
 ```
 
