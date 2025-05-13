@@ -55,13 +55,33 @@ Or, you can launch R studio manually.
 
 **Step 3: Manually Configure R's PATH**
 
-Point your bin's dir path
+Point your bin's dir path.
+
+Run the following command in R console.
 
 ```
 qiime_bin <- "/Users/ugalab4/anaconda3/envs/qiime2-amplicon-2024.10/bin"
 
 ```
-The path should be the one you get when you executed the "which qiime" command in your terminal. 
+The path should be the one you get when you executed the "which qiime" command in your terminal in **Step 2**. 
+
+
+Now, prepend it to R' path using following command in R console.
+
+```
+Sys.setenv(PATH = paste(qiime_bin, Sys.getenv("PATH"), sep = ":"))
+```
+
+Verify the path by running the following command in the R console;
+
+```
+Sys.which("qiime")
+```
+
+
+
+
+
 
 
 
