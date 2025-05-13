@@ -14,3 +14,11 @@ This guide will walk you through installing the necessary packages, configuring 
 - Miniconda or Anaconda
 
 - A QIIME 2 conda environment qiime2-amplicon-2024.10
+
+**Step 1: Activate QIIME2 Environment in your terminal**
+I assume you have qiime2-amplicon-2024.10 installed in your system.
+
+'''{bash}
+conda activate qiime2-amplicon-2024.10
+```
+
