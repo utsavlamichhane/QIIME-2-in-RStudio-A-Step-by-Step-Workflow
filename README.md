@@ -11,3 +11,5 @@ This repository includes everything you need to run QIIME 2 commands directly fr
   
 
 Clone this repo, open RStudio, and follow the instructions in **INSTRUCTIONS.md** to get up and running in minutes!  
+
+[For class, 2026]
